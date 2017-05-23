@@ -1,0 +1,73 @@
+/*Theme Name: sundays
+Author: karina
+Description: Theme Sundays.*/
+.monHeader {
+  background-color: #281400; }
+  .monHeader ul {
+    display: flex;
+    justify-content: center; }
+    .monHeader ul li {
+      list-style: none;
+      padding: 0 1em; }
+      .monHeader ul li a {
+        color: #b5aea7; }
+  .monHeader h1 {
+    margin-top: 15rem;
+    color: white;
+    font-family: serif; }
+  .monHeader h2 {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: serif; }
+  .monHeader button {
+    background-color: #a28f61;
+    border: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    margin-bottom: 15rem; }
+
+.monMain tr:last-child {
+  font-weight: bold; }
+.monMain tr td, .monMain tr th {
+  text-align: center; }
+.monMain .col-md-12 article {
+  margin: 1em;
+  box-shadow: 0px 0px 2px #333;
+  padding: 1em; }
+  .monMain .col-md-12 article img {
+    margin: 0 auto; }
+  .monMain .col-md-12 article h3 {
+    color: #a28f61; }
+    .monMain .col-md-12 article h3 a {
+      color: #a28f61; }
+.monMain section {
+  display: flex; }
+  .monMain section article {
+    margin: 1em auto;
+    box-shadow: 0px 0px 2px #333;
+    padding: 1em; }
+    .monMain section article h3 {
+      color: #a28f61; }
+      .monMain section article h3 a {
+        color: #a28f61; }
+
+.monFooter {
+  background-color: #0f3e57; }
+  .monFooter .col-md-3 ul li {
+    list-style: none;
+    color: #b1b1b1;
+    margin: 1em; }
+    .monFooter .col-md-3 ul li:first-child, .monFooter .col-md-3 ul li a {
+      color: white; }
+
+@media (max-width: 700px) {
+  section {
+    flex-direction: column; }
+    section article {
+      width: 90%; }
+      section article img {
+        width: 100%;
+        height: 80%; } }
+
+/*# sourceMappingURL=style.css.map */
