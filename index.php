@@ -4,11 +4,9 @@
     <section>
         <?php
 
-        $cats = get_categories();
-        foreach ($cats as $cat) {
-            $args = array('category' => $cat->cat_ID);
-?>
-            <?php
+            $args = array(  'cat' => '2,3,4',
+                            'posts_per_page' => -1
+                        );
             $posts = get_posts($args);
             foreach ($posts as $post) {
                 setup_postdata($post);
@@ -21,7 +19,6 @@
                 </article>
                 <?php
             }
-        }
         ?>
     </div>
 
