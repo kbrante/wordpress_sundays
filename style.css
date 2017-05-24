@@ -84,6 +84,9 @@ Description: Theme Sundays.*/
 .monMain section article h3 a {
     color: #a28f61;
 }
+h4 {
+    text-transform: capitalize;
+}
 
 .monFooter {
     background-color: #0f3e57;

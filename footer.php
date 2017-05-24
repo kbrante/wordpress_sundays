@@ -21,8 +21,23 @@
 
         <ul>
             <li>Newletter</li>
-            <li><input type="email" name="" value="" placeholder="Your email"></li>
-            <button type="button" name="button">OK</button>
+            <li><form class="" action="#" method="post">
+                <input type="email" name="email" value="" placeholder="Your email">
+                <button type="submit" name="form">OK</button>
+                <?php
+                if (isset($_POST["email"])) {
+                    echo "<p>votre email a été enregistré</p>";
+                    $wpdb->insert(
+                	'wp-email',
+                	array(
+                		'email' =>  $_POST["email"]
+                	)
+                );
+
+                }
+
+                 ?>
+            </form></li>
         </ul>
     </div>
     <div class="col-md-3">
