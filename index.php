@@ -12,9 +12,9 @@
                 setup_postdata($post);
                 ?>
                 <article class="">
-                    <img src="http://lorempixel.com/100/200" />
+                    <?php the_post_thumbnail(); ?>
                     <h3><a href=""><?php the_category(); ?></a></h3>
-                    <p><?php the_title(); ?></p>
+                    <p><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></p>
                     <span><?php the_meta(); ?></span>
                 </article>
                 <?php

@@ -15,11 +15,11 @@
         <div class="row monHeader">
             <div class="col-xs-12">
                 <ul>
-                    <li><a href="#">Catalog</a></li>
+                    <li><a href="/">Catalog</a></li>
                     <li><a href="#">About Us</a></li>
                     <li><a href="#">Stores</a></li>
                     <li><a href="#">Blog</a></li>
-                    <li><a href="index_panier.html">Panier</a></li>
+                    <li><a href="#">Panier</a></li>
                     <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
                 </ul>
             </div>
